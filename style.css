@@ -1,0 +1,60 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  background: #f5f5f5;
+}
+header {
+  background: #2c3e50;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+section {
+  display: none;
+  padding: 20px;
+}
+.active {
+  display: block;
+}
+
+/* To-Do */
+#todo input {
+  padding: 8px;
+  width: 200px;
+}
+#todo button {
+  padding: 8px 12px;
+  margin-left: 10px;
+}
+#noteList li {
+  margin-top: 10px;
+  background: white;
+  padding: 10px;
+  border-left: 4px solid #1976d2;
+}
+
+/* Products */
+#product select {
+  margin: 10px 5px;
+  padding: 5px;
+}
+#output {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-top: 20px;
+}
+.card {
+  background: white;
+  padding: 10px;
+  width: 180px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
